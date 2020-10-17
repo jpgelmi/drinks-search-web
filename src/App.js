@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import Header from "./components/Header"
 import Formulario from "./components/Formulario"
 import ListaRecetas from "./components/ListaRecetas"
+import styles from "./Footer.module.css"
 
 import CategoriasProvider from './context/CategoriasContext';
 import RecetasProvider from './context/RecetasContext';
@@ -19,7 +20,13 @@ function App() {
               <Formulario/>
             </div>
               <ListaRecetas/>
+            <footer
+              className = {styles.footer}
+            >
+              Juan Pablo Gelmi /@jpgelmi
+            </footer>
           </div>
+
         </ModalProvider>
       </RecetasProvider>
     </CategoriasProvider>
