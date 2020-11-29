@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Proyect online
+# Proyect online
 
-https://affectionate-newton-a3f464.netlify.app
+https://jp-drinks.netlify.app
 
 ## Available Scripts
 
